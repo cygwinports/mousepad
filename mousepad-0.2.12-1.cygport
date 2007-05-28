@@ -1,0 +1,2 @@
+XFCE_VERSION=4.4.1
+inherit xfce4
