@@ -1,5 +1,5 @@
 category: Gnome Editors
-requires: cygwin glib2 gtk2-x11 libintl8 libxfce4util pango
+requires: cygwin libgdk_pixbuf2.0_0 libglib2.0_0 libgtk2.0_0 libpango1.0_0 libxfce4util4
 sdesc: "Xfce4 text editor"
 ldesc: "Mousepad is a text editor for Xfce based on Leafpad. The initial 
 reason for Mousepad was to provide printing support, which would have 
