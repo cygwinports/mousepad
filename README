@@ -5,27 +5,28 @@ for Mousepad was to provide printing support, which would have been
 difficult for Leafpad for various reasons.
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  libgdk_pixbuf2.0_0-2.14.7-2
-  libglib2.0_0-2.18.4-1
-  libgtk2.0_0-2.14.7-2
-  libpango1.0_0-1.22.4-1
-  libxfce4util4-4.5.99.1-1
+  cygwin-1.7.0-49
+  libgcc1-4.3.2-2
+  libgdk_pixbuf2.0_0-2.16.2-1
+  libglib2.0_0-2.20.3-1
+  libgtk2.0_0-2.16.2-1
+  libpango1.0_0-1.24.2-1
+  libxfce4util4-4.6.1-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.63-1
-  automake1.10-1.10.1-1
+  autoconf2.5-2.63-10
+  automake1.10-1.10.2-10
   binutils-20080624-2
-  cygport-0.4.3-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  intltool-0.40.5-1
-  libtool-2.2.6a-1
-  make-3.81-1
-  pkg-config-0.23a-2
+  cygport-0.9.6-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  intltool-0.40.6-1
+  libtool-2.2.7a-13
+  make-3.81-2
+  pkg-config-0.23b-10
   sed-4.1.5-2
-  xfce4-dev-tools-4.6.0-1
+  xfce4-dev-tools-4.6.0-10
 
 Canonical website:
   http://www.xfce.org/
@@ -53,13 +54,12 @@ Files included in the binary package:
   /etc/postinstall/mousepad.sh
   /usr/bin/mousepad.exe
   /usr/share/applications/mousepad.desktop
-  /usr/share/doc/mousepad-0.2.16/AUTHORS
-  /usr/share/doc/mousepad-0.2.16/COPYING
-  /usr/share/doc/mousepad-0.2.16/ChangeLog
-  /usr/share/doc/mousepad-0.2.16/INSTALL
-  /usr/share/doc/mousepad-0.2.16/NEWS
-  /usr/share/doc/mousepad-0.2.16/README
-  /usr/share/doc/mousepad-0.2.16/TODO
+  /usr/share/doc/mousepad/AUTHORS
+  /usr/share/doc/mousepad/COPYING
+  /usr/share/doc/mousepad/ChangeLog
+  /usr/share/doc/mousepad/NEWS
+  /usr/share/doc/mousepad/README
+  /usr/share/doc/mousepad/TODO
   /usr/share/locale/am/LC_MESSAGES/mousepad.mo
   /usr/share/locale/ar/LC_MESSAGES/mousepad.mo
   /usr/share/locale/be/LC_MESSAGES/mousepad.mo
@@ -114,14 +114,8 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 0.2.16-1 -----
-Version bump for Xfce 4.6.
-
------ version 0.2.14-1 -----
-Version bump.
-
------ version 0.2.12-1 -----
-Initial release of Xfce 4.4 for Cygwin.
+----- version 0.2.16-10 -----
+Initial release of Xfce 4.6 for Cygwin 1.7.
 
 
 Cygwin port maintained by:
