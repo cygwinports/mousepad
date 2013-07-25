@@ -1,0 +1,10 @@
+inherit xfce4
+
+NAME="mousepad"
+VERSION=0.3.0
+RELEASE=1
+CATEGORY="Xfce Editors"
+SUMMARY="Xfce4 text editor"
+DESCRIPTION="Mousepad is a text editor for Xfce based on Leafpad. The initial
+reason for Mousepad was to provide printing support, which would have been
+difficult for Leafpad for various reasons."
